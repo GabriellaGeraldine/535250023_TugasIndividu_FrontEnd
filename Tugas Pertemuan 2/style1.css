@@ -1,0 +1,23 @@
+header {
+    background-color: pink;
+}
+
+body{
+    background-color: beige;
+}
+
+h1 {
+    color: palevioletred;
+    font-family: 'Arial';
+}
+
+nav a {
+    background-color: powderblue;
+    padding: 6px 12px;
+}
+
+p {
+    font-size: 20 px;
+    font-family: monospace;
+}
+
