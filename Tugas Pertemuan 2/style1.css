@@ -1,19 +1,37 @@
-header {
-    background-color: pink;
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
 
-body{
+header {
+    background-color: pink;
+    margin-top: 0;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.header h1 {
+
+}
+
+body {
     background-color: beige;
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
 
 h1 {
-    color: palevioletred;
+    color: #c23d6b;
     font-family: 'Arial';
 }
 
 nav a {
-    background-color: powderblue;
+    background-color:#f2b8c6;
     padding: 6px 12px;
+    margin: 10px;
+        color: #8a1f4b
 }
 
 p {
@@ -21,3 +39,14 @@ p {
     font-family: monospace;
 }
 
+article {
+    padding: 20px;
+}
+
+footer {
+    padding: 20px;
+    background-color: #f2b8c6;
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+}
