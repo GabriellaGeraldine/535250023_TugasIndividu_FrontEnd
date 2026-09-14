@@ -34,13 +34,12 @@ body {
 }
 
 .container {
-    width: 100%;
-    max-width: 700px;
-    margin: 50px auto;
-    padding: 32px;
+    width: auto;
+    margin: 20px 15px;
+    padding: 20px 16px;
+    border-radius: 16px;
     background-color: #f7786b;
     color: white;
-    border-radius: 20px;
     text-align: center;
 }
 
@@ -52,7 +51,7 @@ body {
 }
 
 .container h3 {
-    border-left: 5px solid #fff;
+    border-left: 5px solid white;
     padding-left: 12px;
     text-align: left;
     margin: 28px 0 10px;
@@ -65,11 +64,12 @@ body {
     margin-left: 10px;
 }
 
-@media (max-width: 600px) {
+@media (min-width: 576px) {
     .container {
-        width: auto;
-        margin: 20px 15px;
-        padding: 20px 16px;
-        border-radius: 16px;
+        width: 100%;
+        max-width: 700px;
+        margin: 50px auto;
+        padding: 32px;
+        border-radius: 20px;
     }
 }
